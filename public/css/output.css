@@ -553,3 +553,115 @@ video {
   --tw-contain-paint:  ;
   --tw-contain-style:  ;
 }
+
+.container {
+  width: 100%;
+}
+
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1536px;
+  }
+}
+
+.absolute {
+  position: absolute;
+}
+
+.inset-x-0 {
+  left: 0px;
+  right: 0px;
+}
+
+.left-96 {
+  left: 24rem;
+}
+
+.top-80 {
+  top: 20rem;
+}
+
+.left-1\/4 {
+  left: 25%;
+}
+
+.left-12 {
+  left: 3rem;
+}
+
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
+.ml-40 {
+  margin-left: 10rem;
+}
+
+.mt-48 {
+  margin-top: 12rem;
+}
+
+.ml-48 {
+  margin-left: 12rem;
+}
+
+.w-80 {
+  width: 20rem;
+}
+
+.bg-lime-900 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(54 83 20 / var(--tw-bg-opacity));
+}
+
+.bg-image {
+  background-image: url('/public/assets/background.png');
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+.pt-56 {
+  padding-top: 14rem;
+}
+
+.pt-10 {
+  padding-top: 2.5rem;
+}
+
+.pr-5 {
+  padding-right: 1.25rem;
+}
+
+.pl-5 {
+  padding-left: 1.25rem;
+}
+
+.text-center {
+  text-align: center;
+}

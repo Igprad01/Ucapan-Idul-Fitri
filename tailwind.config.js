@@ -4,7 +4,10 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'image' : "url('/public/assets/background.png')",
+        'image' : "url('/public/assets/img/background.png')",
+      },
+      fontFamily: {
+        'RTL-Romman': ['']
       }
     },
   },

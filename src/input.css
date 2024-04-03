@@ -3,6 +3,11 @@
 @tailwind utilities;
 
 @font-face {
-    font-family: '';
-    src: url();
+    font-family: 'railey';
+    src: url('/public/assets/font/Railey-PersonalUse.ttf');
+}
+
+@font-face {
+    font-family: 'swash';
+    src: url('/public/assets/font/BerkshireSwash-Regular.ttf');
 }

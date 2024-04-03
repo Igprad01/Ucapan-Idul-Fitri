@@ -7,7 +7,8 @@ module.exports = {
         'image' : "url('/public/assets/img/background.png')",
       },
       fontFamily: {
-        'RTL-Romman': ['']
+        'swash': ["swash"],
+        'railey': ["railey"]
       }
     },
   },

@@ -28,7 +28,6 @@ function type() {
   
   type();
 
-
-  function music() {
-    
+  function nyalaMusik() {
+    // isi musik otomatis takbiran
   }

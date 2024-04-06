@@ -649,10 +649,6 @@ video {
   background-color: rgb(54 83 20 / var(--tw-bg-opacity));
 }
 
-.bg-image {
-  background-image: url('/public/assets/img/background.png');
-}
-
 .pl-5 {
   padding-left: 1.25rem;
 }
@@ -740,14 +736,6 @@ video {
 
   .lg\:w-96 {
     width: 24rem;
-  }
-
-  .lg\:bg-image {
-    background-image: url('/public/assets/img/background.png');
-  }
-
-  .lg\:bg-cover {
-    background-size: cover;
   }
 
   .lg\:text-3xl {

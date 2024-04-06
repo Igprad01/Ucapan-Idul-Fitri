@@ -604,16 +604,44 @@ video {
   bottom: 5rem;
 }
 
-.left-9 {
-  left: 2.25rem;
-}
-
 .right-1 {
   right: 0.25rem;
 }
 
 .top-36 {
   top: 9rem;
+}
+
+.left-5 {
+  left: 1.25rem;
+}
+
+.left-10 {
+  left: 2.5rem;
+}
+
+.left-9 {
+  left: 2.25rem;
+}
+
+.left-8 {
+  left: 2rem;
+}
+
+.left-7 {
+  left: 1.75rem;
+}
+
+.left-6 {
+  left: 1.5rem;
+}
+
+.left-11 {
+  left: 2.75rem;
+}
+
+.left-12 {
+  left: 3rem;
 }
 
 .mb-2 {

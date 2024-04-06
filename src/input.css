@@ -2,12 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-    font-family: 'railey';
-    src: url('/public/assets/font/Railey-PersonalUse.ttf');
-}
 
 @font-face {
     font-family: 'swash';
-    src: url('/public/assets/font/BerkshireSwash-Regular.ttf');
+    src: url('../assets/font/BerkshireSwash-Regular.ttf');
 }

@@ -596,6 +596,14 @@ video {
   position: absolute;
 }
 
+.relative {
+  position: relative;
+}
+
+.bottom-20 {
+  bottom: 5rem;
+}
+
 .left-9 {
   left: 2.25rem;
 }
@@ -628,6 +636,10 @@ video {
   width: 20rem;
 }
 
+.cursor-pointer {
+  cursor: pointer;
+}
+
 .flex-row {
   flex-direction: row;
 }
@@ -649,6 +661,25 @@ video {
   background-color: rgb(54 83 20 / var(--tw-bg-opacity));
 }
 
+.bg-orange-800 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(154 52 18 / var(--tw-bg-opacity));
+}
+
+.bg-image {
+  background-image: url('../assets/img/background.png');
+}
+
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
 .pl-5 {
   padding-left: 1.25rem;
 }
@@ -663,6 +694,10 @@ video {
 
 .text-center {
   text-align: center;
+}
+
+.font-swash {
+  font-family: swash;
 }
 
 .text-2xl {
@@ -706,15 +741,9 @@ video {
 }
 
 @font-face {
-  font-family: 'railey';
-
-  src: url('/public/assets/font/Railey-PersonalUse.ttf');
-}
-
-@font-face {
   font-family: 'swash';
 
-  src: url('/public/assets/font/BerkshireSwash-Regular.ttf');
+  src: url('../assets/font/BerkshireSwash-Regular.ttf');
 }
 
 @media (min-width: 1024px) {
@@ -732,6 +761,14 @@ video {
 
   .lg\:w-96 {
     width: 24rem;
+  }
+
+  .lg\:bg-image {
+    background-image: url('../assets/img/background.png');
+  }
+
+  .lg\:bg-cover {
+    background-size: cover;
   }
 
   .lg\:text-3xl {

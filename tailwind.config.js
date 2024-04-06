@@ -4,11 +4,10 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'image' : "url('/public/assets/img/background.png')",
+        'image' : "url('../assets/img/background.png')",
       },
       fontFamily: {
-        'swash': ["swash"],
-        'railey': ["railey"]
+        'swash': ["swash"]
       }
     },
   },

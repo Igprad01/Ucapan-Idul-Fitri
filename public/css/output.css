@@ -649,10 +649,6 @@ video {
   background-color: rgb(54 83 20 / var(--tw-bg-opacity));
 }
 
-.bg-cover {
-  background-size: cover;
-}
-
 .pl-5 {
   padding-left: 1.25rem;
 }

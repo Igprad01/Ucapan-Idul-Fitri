@@ -7,32 +7,53 @@
     <link href="./css/output.css" rel="stylesheet">
 </head>
 <!-- tahun depan di upgrade kembali dengan menambahkan beberapa fitur lagi (fiturnya coming soon) -->
-<body class="bg-image lg:bg-image lg:bg-cover">
-    <div class="flex items-center justify-center min-h-screen">
-        <div class="container bg-lime-900 w-80 capitalize absolute top-36 left-9 text-center pt-10 pr-5 pl-5 text-lime-200 font-swash rounded-lg lg:capitalize lg:w-96 lg:top-36 lg:left-96 lg:ml-44" id="audio">
-            <div class="flex justify-between">
-                <img src="assets/img/ketupat.png" alt="" width="50px">
-                <img src="assets/img/ketupat.png" alt="" width="50px">
+<body class="bg-image bg-cover bg-center bg-no-repeat bg-fixed min-h-screen text-lime-900 selection:bg-lime-700 selection:text-white">
+    <div class="flex items-center justify-center min-h-screen p-4 py-12 overflow-x-hidden">
+        <!-- Main Container -->
+        <div class="relative bg-lime-900/90 backdrop-blur-sm shadow-2xl w-full max-w-[90%] sm:max-w-md md:max-w-lg lg:max-w-2xl text-center pt-16 pb-12 px-6 sm:px-10 text-lime-100 font-swash rounded-3xl capitalize border border-lime-800/50" id="audio">
+            
+            <!-- Top Decorations -->
+            <div class="flex justify-between items-center w-full absolute top-0 left-0 right-0 px-4 -mt-8 sm:-mt-10 lg:-mt-12">
+                <img src="assets/img/ketupat.png" alt="Ketupat" class="w-16 sm:w-20 lg:w-24 drop-shadow-xl transform -rotate-12 hover:rotate-0 transition-transform duration-300">
+                <img src="assets/img/ketupat.png" alt="Ketupat" class="w-16 sm:w-20 lg:w-24 drop-shadow-xl transform rotate-12 hover:rotate-0 transition-transform duration-300">
             </div>
-            <div class="absolute right-1 opacity-30">
-                <img src="assets/img/masjid.png">
+
+            <!-- Background Image decoration inside the card -->
+            <div class="absolute inset-0 opacity-10 pointer-events-none flex items-center justify-center overflow-hidden rounded-3xl">
+                <img src="assets/img/masjid.png" class="w-full h-full object-cover sm:object-contain transform scale-150 sm:scale-100" alt="">
             </div>
-            <h2 class="text-xl mb-2 italic lg:text-xl">Selamat Hari Raya</h2>
-            <h2 class="text-5xl mb-2 lg:text-5xl">Idul Fitri</h2>
-            <p class="text-xl mb-2 lg:text-xl">Mohon Maaf Lahir Batin</p>
-            <p class="text-xl mb-2 lg:text-xl">"1446 H"</p>
-            <div class="flex flex-row mb-5 justify-center font-bold lg:text-3xl">
-                <p class="mr-1 text-2xl invisible">I</p>
-                 <p class="text-2xl font-extrabold" id="textwriter"></p>
+
+            <!-- Content -->
+            <div class="relative z-10 flex flex-col items-center justify-center">
+                <h2 class="text-2xl sm:text-3xl lg:text-4xl mb-3 italic opacity-90">Selamat Hari Raya</h2>
+                <h2 class="text-5xl sm:text-6xl lg:text-7xl mb-6 font-bold tracking-wider text-lime-300 drop-shadow-[0_2px_2px_rgba(0,0,0,0.5)]">Idul Fitri</h2>
+                <p class="text-xl sm:text-2xl lg:text-3xl mb-2 font-medium">Mohon Maaf Lahir Batin</p>
+                <p class="text-xl sm:text-2xl lg:text-3xl mb-8 opacity-90">"1446 H"</p>
+
+                <!-- Typewriter Effect Container -->
+                <div class="flex flex-row justify-center items-center font-bold text-2xl sm:text-3xl lg:text-4xl min-h-[4rem] mb-6">
+                    <span class="mr-2 invisible text-2xl sm:text-3xl lg:text-4xl">I</span>
+                    <span class="font-extrabold text-lime-200 drop-shadow-md" id="textwriter"></span>
+                </div>
             </div>
-            <div class="flex justify-between">
-                <img src="assets/img/ketupat.png" alt="" width="50px">
-                <img src="assets/img/ketupat.png" alt="" width="50px">
+
+            <!-- Action Button -->
+            <div class="mt-4 relative z-20">
+                <a href="https://app.u.shopeepay.co.id/u/eqo3Zg6BFTLk9g2Qb5UxR" target="_blank" class="inline-block bg-gradient-to-r from-lime-600 to-lime-500 hover:from-lime-500 hover:to-lime-400 text-white px-10 sm:px-12 py-3 sm:py-4 rounded-full cursor-pointer transition-all duration-300 ease-out transform hover:-translate-y-1 hover:shadow-lime-500/30 hover:shadow-2xl shadow-xl font-sans font-bold tracking-wider text-base sm:text-lg">
+                    Klik Ini
+                </a>
             </div>
-            <button class="relative bottom-20 bg-lime-600 px-10 py-2 rounded-lg cursor-pointer"><a href="https://app.u.shopeepay.co.id/u/eqo3Zg6BFTLk9g2Qb5UxR">Klik ini</a></button>
-           </div>
+            
+            <!-- Bottom Decorations -->
+            <div class="flex justify-between items-center w-full absolute bottom-0 left-0 right-0 px-8 -mb-10 sm:-mb-12">
+                <img src="assets/img/ketupat.png" alt="Ketupat" class="w-14 sm:w-16 lg:w-20 drop-shadow-xl transform rotate-45 opacity-80">
+                <img src="assets/img/ketupat.png" alt="Ketupat" class="w-14 sm:w-16 lg:w-20 drop-shadow-xl transform -rotate-45 opacity-80">
+            </div>
+        </div>
     </div>
+
+    <!-- Scripts -->
     <script src="./javascript/testwriter.js"></script>
-    <script src="../public/javascript/script.js"></script>
+    <script src="./javascript/script.js"></script>
 </body>
 </html>
